@@ -1,10 +1,10 @@
 name: Change Directory
-description: Changes the working directory before running command
+description: Changes the working directory on post-checkout
 author: https://github.com/reidab
 requirements: []
 configuration:
   properties:
-    cd:
+    subdir:
       type: string
   required:
-    - cd
+    - subdir
